@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../gradle-4.9" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-cloud-server" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../gradle-4.9" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/spring-cloud-server" />
+            <option value="$PROJECT_DIR$/spring-cloud-server/spring-cloud-server1" />
+            <option value="$PROJECT_DIR$/spring-cloud-server/spring-cloud-server2" />
+            <option value="$PROJECT_DIR$/spring-cloud-server/spring-cloud-server3" />
+            <option value="$PROJECT_DIR$/spring-cloud-server/spring-cloud-server4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

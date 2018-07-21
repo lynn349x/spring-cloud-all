@@ -1,0 +1,6 @@
+rootProject.name = 'spring-cloud-server'
+
+include 'spring-cloud-server1'
+include 'spring-cloud-server2'
+include 'spring-cloud-server3'
+include 'spring-cloud-server4'

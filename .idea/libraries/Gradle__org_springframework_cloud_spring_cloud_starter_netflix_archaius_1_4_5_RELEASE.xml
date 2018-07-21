@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:1.4.5.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-archaius/1.4.5.RELEASE/74a6b8f062467e70c4e16d41424d31bbd153d616/spring-cloud-starter-netflix-archaius-1.4.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-archaius/1.4.5.RELEASE/ddeee824eb02b3c0078a7d53725187dd03b878cc/spring-cloud-starter-netflix-archaius-1.4.5.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

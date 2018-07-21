@@ -1,0 +1,9 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: server1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.5.49:8765/eureka
