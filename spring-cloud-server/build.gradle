@@ -1,5 +1,5 @@
 plugins {
-    id 'java' version '1.8'
+    id 'java'
     id 'org.springframework.boot' version '1.5.14.RELEASE'
 }
 
@@ -36,7 +36,7 @@ subprojects {
 
     dependencyManagement {
         imports {
-//            mavenBom ':spring-boot-dependencies:2.0.3.RELEASE'
+            mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}"
             mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Edgware.SR4'
         }
     }
@@ -44,12 +44,19 @@ subprojects {
     dependencies {
         compile 'org.springframework.cloud:spring-cloud-starter-config'
         compile 'org.springframework.cloud:spring-cloud-starter-eureka'
-        compile 'org.springframework.cloud:spring-cloud-starter-netflix'
         compile 'org.springframework.cloud:spring-cloud-starter-feign'
-        compile 'org.springframework.cloud:spring-cloud-starter-sleuth'
-        compile 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
+//        compile 'org.springframework.cloud:spring-cloud-starter-sleuth'
+        compile 'org.springframework.cloud:spring-cloud-starter-zipkin'
+
+//        compile 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
+//        compile 'io.zipkin.java:zipkin-server'
+//        compile 'io.zipkin.java:zipkin-autoconfigure-ui'
+
+        compile 'org.springframework.boot:spring-boot-starter-actuator'
+//        compile 'org.springframework.boot:spring-boot-starter-web:1.5.14.RELEASE'
 
         compile 'com.alibaba:fastjson:1.2.28'
+        compile 'com.weibo:filter-opentracing:1.0.0'
 
         testCompile group: 'junit', name: 'junit', version: '4.12'
     }
