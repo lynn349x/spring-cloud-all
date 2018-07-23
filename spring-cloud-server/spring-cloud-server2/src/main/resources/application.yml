@@ -4,8 +4,8 @@ spring:
   application:
     name: server2
   zipkin:
-      base-url: http://192.168.5.48:9411/
-      enabled: true
+    base-url: http://192.168.5.48:9411/
+    enabled: true
   sleuth:
     sampler:
       percentage: 1
