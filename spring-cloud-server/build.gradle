@@ -51,6 +51,8 @@ subprojects {
 //        compile 'org.springframework.cloud:spring-cloud-sleuth-zipkin'
 //        compile 'io.zipkin.java:zipkin-server'
 //        compile 'io.zipkin.java:zipkin-autoconfigure-ui'
+//        compile 'com.netflix.hystrix:hystrix-core'
+        compile 'com.netflix.hystrix:hystrix-metrics-event-stream'
 
         compile 'org.springframework.boot:spring-boot-starter-actuator'
 //        compile 'org.springframework.boot:spring-boot-starter-web:1.5.14.RELEASE'
