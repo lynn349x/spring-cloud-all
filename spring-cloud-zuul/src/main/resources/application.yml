@@ -1,0 +1,31 @@
+management:
+  security:
+    enabled: false
+server:
+  port: 9001
+spring:
+  application:
+    name: zuul-gateway
+  zipkin:
+    base-url: http://192.168.5.48:9411/
+    enabled: true
+  sleuth:
+    sampler:
+      percentage: 1
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://192.168.5.49:8765/eureka
+logging:
+  level:
+    root: debug
+zuul:
+  routes:
+    server1:
+      path: /server1/*
+      serviceId: server1
+    server2: /server2/*
+    server3: /server3/*
+    server4: /server4/*
