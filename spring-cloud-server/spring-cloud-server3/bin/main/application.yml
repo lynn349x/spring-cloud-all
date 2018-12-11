@@ -1,0 +1,15 @@
+server:
+  port: 8803
+spring:
+  application:
+    name: server3
+  zipkin:
+      base-url: http://192.168.5.48:9411/
+      enabled: true
+  sleuth:
+    sampler:
+      percentage: 1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.5.49:8765/eureka
